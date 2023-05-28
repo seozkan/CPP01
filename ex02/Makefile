@@ -6,14 +6,14 @@
 #    By: seozkan <seozkan@student.42kocaeli.com.tr> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/28 17:25:16 by seozkan           #+#    #+#              #
-#    Updated: 2023/05/28 17:38:23 by seozkan          ###   ########.fr        #
+#    Updated: 2023/05/28 17:49:12 by seozkan          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= brain
 CC			= g++
 RM			= rm -rf
-CFLAGS		= -std=c++98 #-Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror -std=c++98
 
 SRCS_DIR 	= .
 SRCS		= $(shell find $(SRCS_DIR) -type f -name "*.cpp")
