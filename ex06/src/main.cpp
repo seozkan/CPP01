@@ -20,7 +20,8 @@ int	main(int ac, char **av)
 
 	if (ac != 2)
 	{
-		std::cout << "Wrong Parameter!" << std::endl;
+		std::cout << "Please give me LEVEL (DEBUG, INFO, WARNING"
+		"OR ERROR)" << std::endl;
 		return (1);
 	}
 	nbr = 0;

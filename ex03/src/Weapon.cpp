@@ -17,8 +17,7 @@ Weapon::Weapon()
 	return ;
 }
 
-Weapon::Weapon(std::string type)
-	: _type(type)
+Weapon::Weapon(std::string type) : _type(type)
 {
 	return ;
 }

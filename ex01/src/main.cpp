@@ -18,7 +18,7 @@ int	main(int ac, char **av)
 
 	if (ac != 3 || atoi(av[1]) <= 0)
 	{
-		std::cout << "\033[1;31mWrong parameter!\033[0m" << std::endl;
+		std::cout << "\033[1;31mPlease provide the number and name of the zombie, respectively.\033[0m" << std::endl;
 		return (1);
 	}
 	else
